@@ -1,13 +1,18 @@
 public class Aluno {
     private String nome;
     private String matricula;
-    private String curso;
+    private Curso curso;
+
+    public Aluno(String nome, String matricula, curso) {
+        this.nome = nome;
+        this.matricula = matricula;
+    }
 
     public String getNome() {
         return nome;
     }
 
-    public void  setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -15,7 +20,7 @@ public class Aluno {
         return matricula;
     }
 
-    public void  setMatricula(String matricula) {
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
@@ -23,9 +28,8 @@ public class Aluno {
         return curso;
     }
 
-    public void  setCurso(String curso) {
-        this.nome = curso;
+    public void setCurso(String curso) {
+        this.curso = curso;
     }
 
-    Aluno aluno1 =  new Aluno();
 }
