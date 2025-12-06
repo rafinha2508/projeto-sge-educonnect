@@ -3,6 +3,11 @@ public class Curso {
     private String codigo;
     private float cargaHoraria;
 
+    public Curso(String nome, String codigo, float cargaHoraria) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.cargaHoraria = cargaHoraria;
+    }
 
     public String getNome() {
         return nome;

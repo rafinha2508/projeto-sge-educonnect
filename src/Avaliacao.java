@@ -21,8 +21,5 @@ public class Avaliacao {
     public String getDescricao() {
         return descricao;
     }
-
-
-
 }
 

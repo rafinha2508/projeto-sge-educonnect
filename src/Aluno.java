@@ -2,10 +2,12 @@ public class Aluno {
     private String nome;
     private String matricula;
     private Curso curso;
+    private Avaliacao avaliacao;
 
-    public Aluno(String nome, String matricula, curso) {
+    public Aluno(String nome, String matricula, Curso curso) {
         this.nome = nome;
         this.matricula = matricula;
+        this.curso = curso;
     }
 
     public String getNome() {
@@ -24,14 +26,19 @@ public class Aluno {
         this.matricula = matricula;
     }
 
-    public String getCurso() {
+    public Curso getCurso() {
         return curso;
     }
 
-    public void setCurso(String curso) {
+    public void setCurso(Curso curso) {
         this.curso = curso;
     }
 
+    public void setAvaliacao(Avaliacao avaliacao) {
+        this.avaliacao = avaliacao;
+    }
 
-
+    public Avaliacao getAvaliacao() {
+        return avaliacao;
+    }
 }

@@ -12,7 +12,7 @@ public class Professor {
         this.nome = nome;
     }
 
-    public getEspecialidade(String especialidade) {
+    public String getEspecialidade(String especialidade) {
         return especialidade;
 
     }
