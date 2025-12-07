@@ -32,4 +32,8 @@ public class Curso {
     public void setCargaHoraria(float cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
+
+    public String detalharCurso(){
+        return "Nome: " + nome + " | Código: " + codigo + " | Carga Horária: " + cargaHoraria;
+    }
 }

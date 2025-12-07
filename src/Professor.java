@@ -3,6 +3,11 @@ public class Professor {
     private String especialidade;
     private String registro;
 
+    public Professor (String nome, String especialidade, String registro) {
+        this.nome = nome;
+        this.especialidade = especialidade;
+        this.registro = registro;
+    }
 
     public String getNome() {
         return nome;
@@ -14,7 +19,6 @@ public class Professor {
 
     public String getEspecialidade(String especialidade) {
         return especialidade;
-
     }
 
     public void setEspecialidade(String especialidade) {

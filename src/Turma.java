@@ -6,6 +6,12 @@ public class Turma {
     Curso curso;
     ArrayList<Aluno> listaAlunos = new ArrayList<>();
 
+    public Turma(String codigo, Professor professor, Curso curso) {
+        this.codigo = codigo;
+        this.professor = professor;
+        this.curso = curso;
+    }
+
     public void matricularAluno(Aluno aluno){
         listaAlunos.add(aluno);
     }
@@ -15,6 +21,6 @@ public class Turma {
     }
 
     public void listarAlunos(){
-        System.out.println("Quantidade de alunos matriculados: "  + listaAlunos.size() + "Professor: " + professor.getNome() + "Curso: " + curso.getNome() );
+        System.out.println("Quantidade de alunos matriculados: "  + listaAlunos.size() + " Professor: " + professor.getNome() + "Curso: " + curso.getNome() );
     }
 }
