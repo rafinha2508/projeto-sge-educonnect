@@ -16,7 +16,7 @@ Criar um sistema que permita gerenciar alunos, professores, cursos, turmas, aval
 - `service/` — Regras de negócio  
 - `repository/` — Armazenamento em listas  
 - `ui/` — Interface do usuário (menus e relatórios)  
-- `Main.java` — Integração das camadas
+- `ui.Main.java` — Integração das camadas
 
 ## 📅 Fases
 1. Modelagem inicial (classes e objetos)

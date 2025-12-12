@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 
 public class Turma {
@@ -21,6 +23,6 @@ public class Turma {
     }
 
     public void listarAlunos(){
-        System.out.println("Quantidade de alunos matriculados: "  + listaAlunos.size() + " Professor: " + professor.getNome() + "Curso: " + curso.getNome() );
+        System.out.println("Quantidade de alunos matriculados: "  + listaAlunos.size() + " model.Professor: " + professor.getNome() + "model.Curso: " + curso.getNome() );
     }
 }

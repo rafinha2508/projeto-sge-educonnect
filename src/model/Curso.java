@@ -1,4 +1,6 @@
-public class Curso {
+package model;
+
+public class Curso implements GeradorRelatorio {
     private String nome;
     private String codigo;
     private float cargaHoraria;
@@ -7,6 +9,11 @@ public class Curso {
         this.nome = nome;
         this.codigo = codigo;
         this.cargaHoraria = cargaHoraria;
+    }
+
+    @Override
+    public void gerarRelatorio() {
+        System.out.println(detalharCurso());
     }
 
     public String getNome() {
